@@ -1,90 +1,122 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=007ACC&height=200&section=header&text=Mauro%20Developer&fontSize=70&animation=fadeIn&fontAlignY=35" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=250&section=header&text=Mauro%20Developer&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%7C%20DAM%20%7C%20Full%20Stack&descSize=20&descAlignY=60&theme=dark" width="100%" />
 </p>
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=500&lines=Hi+there!+👋+I'm+Mauro;Desarrollador+DAM;Full+Stack+Developer;Especialista+en+ERP+Odoo;Welcome+to+my+code+space!" alt="Typing SVG" />
-</div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Mauro-vs&label=PROFILE+VIEWS&color=2E9EF7&style=flat-square" alt="Mauro-vs" />
-  <img src="https://img.shields.io/github/followers/Mauro-vs?label=FOLLOWERS&style=flat-square&color=2E9EF7" alt="GitHub followers" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Especialista+en+ERP+Odoo;Desarrollador+Multiplataforma;Pasi%C3%B3n+por+el+Clean+Code;Innovando+con+Flutter+y+.NET" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Mauro-vs&label=PROFILE+VIEWS&color=58A6FF&style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/github/followers/Mauro-vs?label=FOLLOWERS&style=for-the-badge&logo=github&color=21262d" />
 </p>
 
 ---
 
-## 🚀 Sobre Mí
+## ⚡ Sobre Mí
 
-Soy **Desarrollador de Aplicaciones Multiplataforma (DAM)** con un enfoque híbrido entre el mundo empresarial y el desarrollo moderno. Me muevo cómodamente entre la robustez de **.NET** y la agilidad de **Python/Odoo**.
+<img src="https://media.giphy.com/media/qgQUggCGvnPtWxCEdq/giphy.gif" align="right" width="180">
 
-* 🔭 **Actualmente trabajando en:** Soluciones escalables para entornos ERP y gestión.
-* 📱 **Mobile & Desktop:** Creando experiencias fluidas con Flutter y WPF.
-* ⚡ **Mi filosofía:** Código limpio, soluciones eficientes y aprendizaje constante.
-* 💬 **Pregúntame sobre:** Odoo, C#, Java o por qué Dart es genial para mobile.
+Soy un apasionado del desarrollo de software enfocado en **soluciones multiplataforma**. Mi día a día consiste en transformar problemas complejos en aplicaciones elegantes, escalables y funcionales.
+
+* 🔭 **Actualmente:** Liderando implementaciones técnicas en entornos **Odoo**.
+* 🌱 **Aprendiendo:** Perfeccionando arquitecturas de microservicios con **NestJS**.
+* 💬 **Hablemos de:** Dart, Java, C#, Clean Architecture y optimización de bases de datos SQL.
+
+> 🧠 **Mindset:** *"El código es para los humanos, la ejecución para las máquinas".*
+
+<br>
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ My Tech Toolbox
 
-### 🟦 Desarrollo Backend & Core
+### 💻 Languages & Frameworks
 <p align="left">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,cs,py,dart,ts,dotnet,flutter,nestjs,spring&theme=dark&perline=10" />
+  </a>
 </p>
 
-### 🟨 Frontend & Mobile
+### 🗄️ Tools & Databases
 <p align="left">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/WPF-512BD4?style=for-the-badge&logo=windows&logoColor=white" />
-</p>
-
-### 🟪 ERP & Herramientas de Gestión
-<p align="left">
-  <img src="https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Crystal_Reports-990000?style=for-the-badge&logo=sap&logoColor=white" />
-</p>
-
-### ⬛ Herramientas & DevOps
-<p align="left">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,docker,git,github,vscode,linux&theme=dark&perline=10" />
+  </a>
 </p>
 
 ---
 
-## 📊 Estadísticas de GitHub
+## 🚀 Proyectos Destacados
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=Mauro-vs&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&icon_color=2E9EF7" height="170" alt="GitHub Stats" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mauro-vs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7" height="170" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mauro-vs&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=2E9EF7&line=2E9EF7&point=FF6B6B" width="100%" alt="Contribution Graph" />
-</div>
+<table border="0" style="width: 100%;">
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">📦 Odoo Enterprise Integration</h3>
+      <p align="center">Módulos personalizados para gestión de inventarios y facturación automatizada. Optimización de procesos internos.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">📱 Multiplatform Dashboard</h3>
+      <p align="center">App desarrollada en Flutter para el control de métricas en tiempo real, compatible con iOS, Android y Web.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🖥️ Desktop ERP Client</h3>
+      <p align="center">Cliente de escritorio robusto construido con WPF y C# para la gestión de activos de alta disponibilidad.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+        <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🌐 API Rest Architecture</h3>
+      <p align="center">Servidor escalable con NestJS y TypeScript, documentado con Swagger y desplegado bajo contenedores Docker.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🎯 Profile.json
-```json
-{
-  "name": "Mauro",
-  "role": "Multiplatform App Developer",
-  "specialties": ["ERP Systems", "Multiplatform Solutions", "Clean Architecture"],
-}
+## 📈 Estadísticas de GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mauro-vs&show_icons=true&bg_color=0d1117&hide_border=true&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mauro-vs&layout=compact&bg_color=0d1117&hide_border=true&title_color=58A6FF&text_color=c9d1d9" width="42%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mauro-vs&background=0d1117&hide_border=true&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=c9d1d9" width="100%" />
+</p>
+
+---
+
+## 🤝 Conecta Conmigo
+
+<p align="center">
+  <a href="https://linkedin.com/in/TU_USUARIO"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:tu-correo@ejemplo.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://tu-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-21262d?style=for-the-badge&logo=safari&logoColor=58A6FF" /></a>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=100&section=footer" width="100%" />
+</p>
