@@ -107,7 +107,7 @@ Soy un apasionado del desarrollo de software enfocado en **soluciones multiplata
 
 <p align="center">
   <a href="https://linkedin.com/in/TU_USUARIO"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:tu-correo@ejemplo.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:maurovs19@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://tu-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-21262d?style=for-the-badge&logo=safari&logoColor=58A6FF" /></a>
 </p>
 
