@@ -107,8 +107,8 @@ Soy un apasionado del desarrollo de software enfocado en **soluciones multiplata
 
 <p align="center">
   <a href="https://linkedin.com/in/mauro-valdes-sanjuan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:mauro.valdes@example.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/Mauro-vs"><img src="https://img.shields.io/badge/Portfolio-21262d?style=for-the-badge&logo=safari&logoColor=58A6FF" /></a>
+  <a href="mailto:129208606+Mauro-vs@users.noreply.github.com"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://mauro-vs.github.io"><img src="https://img.shields.io/badge/Portfolio-21262d?style=for-the-badge&logo=safari&logoColor=58A6FF" /></a>
 </p>
 
 <br>
