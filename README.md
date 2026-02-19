@@ -62,11 +62,6 @@ Soy un **Ingeniero de Software** enfocado en crear soluciones robustas y escalab
 ## 📈 GitHub Insights
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mauro-vs&show_icons=true&bg_color=0d1117&hide_border=true&title_color=007BFF&icon_color=007BFF&text_color=c9d1d9&border_radius=10" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mauro-vs&layout=compact&bg_color=0d1117&hide_border=true&title_color=007BFF&text_color=c9d1d9&border_radius=10" width="48%" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mauro-vs&background=0d1117&hide_border=true&stroke=007BFF&ring=007BFF&fire=007BFF&currStreakLabel=007BFF&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=c9d1d9" width="91%" />
 </p>
 
