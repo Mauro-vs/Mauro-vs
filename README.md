@@ -1,90 +1,94 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=007BFF&height=280&section=header&text=Mauro%20Developer&fontSize=80&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20ERP%20Specialist%20%7C%20Full%20Stack&descSize=22&descAlignY=62&theme=dark" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:007BFF,100:00C2FF&height=260&section=header&text=Mauro%20Vald%C3%A9s&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Desarrollador%20Multiplataforma%20%C2%B7%20Full%20Stack&descSize=22&descAlignY=56" alt="Mauro Valdés — Desarrollador Multiplataforma / Full Stack" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=007BFF&center=true&vCenter=true&width=600&lines=Odoo+Enterprise+Specialist;Multiplatform+Developer;Clean+Architecture+Enthusiast;Flutter+%26+.NET+Expert" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=007BFF&center=true&vCenter=true&width=620&lines=React+Native+%26+Expo+Developer;NestJS+%2B+TypeORM+APIs;Odoo+Module+Developer;C%23+%2F+WPF+Desktop+Apps" alt="React Native & Expo · NestJS + TypeORM · Odoo · C#/WPF" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Mauro-vs&label=VISITS&color=007BFF&style=flat-square&logo=github" />
-  <img src="https://img.shields.io/github/followers/Mauro-vs?label=FOLLOWERS&style=flat-square&logo=github&color=333" />
-</p>
-
----
-
-## ⚡ Sobre Mí
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJndnBqM3BqZ3BqZ3BqZ3BqZ3BqZ3BqZ3BqZ3BqZ3BqJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/SWoSkN6DxTszqIKEqv/giphy.gif" align="right" width="220">
-
-Soy un **Ingeniero de Software** enfocado en crear soluciones robustas y escalables. Mi especialidad radica en la integración de ecosistemas **ERP (Odoo)** y el desarrollo de aplicaciones multiplataforma de alto rendimiento.
-
-* 🚀 **Misión:** Transformar procesos de negocio complejos en experiencias digitales fluidas.
-* 🛠️ **Arquitectura:** Fiel defensor de *Clean Code* y *SOLID*.
-* ☁️ **Foco:** Cloud Computing, Microservicios y optimización de bases de datos.
-
-> [!TIP]
-> **Mi Filosofía:** *"No solo escribo código, diseño soluciones que resuelven problemas reales."*
-
-<br>
-
----
-
-## 🛠️ My Tech Toolbox
-
-### 💻 Core Stack
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,cs,py,dart,ts,dotnet,flutter,nestjs,spring,fastapi&theme=dark" />
-  </a>
-</p>
-
-### 🗄️ Infrastructure & Tools
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=postgres,mysql,docker,git,github,vscode,linux,aws,postman&theme=dark" />
-  </a>
-</p>
-
----
-
-## 🚀 Proyectos Destacados
-
-| Project | Tech Stack | Description |
-| :--- | :---: | :--- |
-| **Odoo Enterprise** | `Python` `PostgreSQL` | Desarrollo de módulos Core para facturación y logística automatizada. |
-| **Multi-App Dashboard** | `Flutter` `Firebase` | Dashboard multiplataforma con analíticas en tiempo real y offline sync. |
-| **Desktop ERP Client** | `.NET` `C#` `WPF` | Cliente pesado para gestión de activos con arquitectura MVVM. |
-| **Scalable API Rest** | `NestJS` `Docker` | Microservicios con NestJS, JWT Auth y documentación interactiva. |
-
----
-
-## 📈 GitHub Insights
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mauro-vs&background=0d1117&hide_border=true&stroke=007BFF&ring=007BFF&fire=007BFF&currStreakLabel=007BFF&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=c9d1d9" width="91%" />
-</p>
-
----
-
-## 🤝 Conectemos
-
-<p align="center">
-  <a href="https://linkedin.com/in/TU_USUARIO">
-    <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://www.linkedin.com/in/mauro-vs/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:maurovs19@gmail.com">
-    <img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  <a href="https://tu-portfolio.com">
-    <img src="https://img.shields.io/badge/PORTFOLIO-007BFF?style=for-the-badge&logo=googlesheets&logoColor=white" />
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=Mauro-vs&label=Visitas&color=007BFF&style=flat-square&logo=github" alt="Contador de visitas" />
+</p>
+
+---
+
+## ⚡ Sobre mí
+
+Desarrollador **multiplataforma / full-stack** con experiencia real en proyectos en producción. Construyo apps móviles y web con **React Native + Expo + TypeScript**, APIs REST con **NestJS / TypeORM** sobre PostgreSQL y MariaDB, y aplicaciones de escritorio con **C# / WPF**. Cubro el ciclo completo: diseño de interfaz, integración de APIs, CI/CD con GitHub Actions y despliegue en VPS. También desarrollo módulos **Odoo** en Python.
+
+- 🎓 Técnico Superior en **Desarrollo de Aplicaciones Multiplataforma (DAM)**
+- 🧩 Me adapto a la tecnología que cada proyecto necesita
+- 📍 Ontinyent, Valencia (España)
+
+> *"No solo escribo código: diseño soluciones que resuelven problemas reales."*
+
+---
+
+## 🛠️ Stack
+
+**Móvil &amp; Frontend**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,tailwind&theme=dark" alt="React, TypeScript, JavaScript, Tailwind" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="28" alt="React Native" />
+  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" height="28" alt="Expo" />
+</p>
+
+**Backend &amp; Bases de datos**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nestjs,nodejs,postgres,mysql&theme=dark" alt="NestJS, Node.js, PostgreSQL, MySQL" />
+  <img src="https://img.shields.io/badge/TypeORM-E83524?style=for-the-badge&logo=typeorm&logoColor=white" height="28" alt="TypeORM" />
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" height="28" alt="MariaDB" />
+</p>
+
+**Escritorio &amp; ERP**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,py&theme=dark" alt="C#, .NET, Python" />
+  <img src="https://img.shields.io/badge/WPF-0C54C2?style=for-the-badge&logo=windows&logoColor=white" height="28" alt="WPF" />
+  <img src="https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white" height="28" alt="Odoo" />
+</p>
+
+**DevOps &amp; Tools**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,vscode,linux,postman&theme=dark" alt="Docker, Git, GitHub, GitHub Actions, VS Code, Linux, Postman" />
+</p>
+
+<sub>🌱 Aprendiendo: Flutter/Dart · AWS · Azure · Google Cloud · MongoDB</sub>
+
+---
+
+## 🚀 Proyectos destacados
+
+| Proyecto | Stack | Descripción |
+| :--- | :--- | :--- |
+| **[Respi — Frontend](https://github.com/Christopher-Blc/Respi_Frontend)** | `React Native` · `Expo Router` · `Zustand` · `Stripe` | App móvil y web de reserva de pistas deportivas, con roles cliente/admin, JWT + refresh token e i18n. *(TFG)* |
+| **[Respi — Backend](https://github.com/Christopher-Blc/ProyectoApp_Acceso_A_Datos)** | `NestJS` · `TypeORM` · `MariaDB` · `Docker` | API REST modular (10+ módulos), autenticación JWT, Swagger y despliegue con Docker Compose + PM2. *(TFG)* |
+| **[GestiLibro](https://github.com/Mauro-vs/GestiLibro)** | `Odoo 18` · `Python` · `PostgreSQL` | Módulo Odoo para cadena de librerías: catálogo, stock multi-tienda, ventas con facturación automática y roles. |
+| **[Hakuna-MaMoto](https://github.com/Mauro-vs/Hakuna-MaMoto)** | `React Native` · `Supabase` · `React Query` | App móvil con Expo Router, Supabase para datos y auth, subida de imágenes y notificaciones push. |
+| **[Club Pádel](https://github.com/Mauro-vs/ClubPadel)** | `C#` · `WPF` · `MVVM` · `EF6` | App de escritorio para gestión de un club: socios, reservas con validación de solapamientos y cuotas automáticas. |
+
+---
+
+## 📊 GitHub
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Mauro-vs&show_icons=true&hide_border=true&theme=tokyonight&icon_color=007BFF&title_color=007BFF&count_private=true" alt="Estadísticas de GitHub de Mauro-vs" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mauro-vs&layout=compact&hide_border=true&theme=tokyonight&title_color=007BFF&langs_count=8" alt="Lenguajes más usados" />
 </p>
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
+  <img src="https://streak-stats.demolab.com/?user=Mauro-vs&background=0d1117&hide_border=true&stroke=007BFF&ring=007BFF&fire=007BFF&currStreakLabel=007BFF&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=c9d1d9" width="60%" alt="Racha de contribuciones" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=007BFF&height=100&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2FF,100:007BFF&height=100&section=footer" alt="" width="100%" />
 </p>
