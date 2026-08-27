@@ -81,12 +81,17 @@ Desarrollador **multiplataforma / full-stack** con experiencia real en proyectos
 ## 📊 GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Mauro-vs&show_icons=true&hide_border=true&theme=tokyonight&icon_color=007BFF&title_color=007BFF&count_private=true" alt="Estadísticas de GitHub de Mauro-vs" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mauro-vs&layout=compact&hide_border=true&theme=tokyonight&title_color=007BFF&langs_count=8" alt="Lenguajes más usados" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mauro-vs&theme=tokyonight" alt="Resumen del perfil de GitHub" width="80%" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Mauro-vs&background=0d1117&hide_border=true&stroke=007BFF&ring=007BFF&fire=007BFF&currStreakLabel=007BFF&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=c9d1d9" width="60%" alt="Racha de contribuciones" />
+  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mauro-vs&theme=tokyonight" alt="Repositorios por lenguaje" />
+  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Mauro-vs&theme=tokyonight" alt="Lenguajes con más commits" />
+</p>
+
+<p align="center">
+  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Mauro-vs&theme=tokyonight" alt="Estadísticas de GitHub" />
+  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mauro-vs&theme=tokyonight&utcOffset=2" alt="Horas más productivas" />
 </p>
 
 <p align="center">
