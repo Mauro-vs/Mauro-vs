@@ -38,7 +38,7 @@ Hice las prácticas en **Designo Studio**, una agencia digital de Valencia, cons
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img alt="Móvil: React Native, Expo, Expo Router, Zustand, React Query. Web: Angular y Signals, React, Vite, TypeScript, Tailwind CSS, Canvas API. API: NestJS, Express, TypeORM, Mongoose, Zod, Swagger, Flask. Escritorio: C#, .NET, WPF, MVVM, Entity Framework. ERP: Odoo 18, Python. Datos, despliegue y herramientas: PostgreSQL, MongoDB, MariaDB, MySQL, SQL Server, SQLite, Supabase, Docker, Docker Compose, GitHub Actions, GitHub Pages, PM2, Linux, Git, Claude Code." src="assets/stack-light.svg" width="100%">
+  <img alt="Móvil: React Native, Expo, Expo Router, Zustand, React Query. Web: Angular y Signals, React, Vite, JavaScript, TypeScript, Tailwind CSS, Canvas API. API: Node.js, NestJS, Express, TypeORM, Mongoose, Zod, Swagger, Flask. Escritorio: C#, .NET, WPF, MVVM, Entity Framework. ERP: Odoo 18, Python. Datos, despliegue y herramientas: PostgreSQL, MongoDB, MariaDB, MySQL, SQL Server, SQLite, Supabase, Docker, Docker Compose, GitHub Actions, GitHub Pages, PM2, Linux, Git, Claude Code." src="assets/stack-light.svg" width="100%">
 </picture>
 
 <br><br>

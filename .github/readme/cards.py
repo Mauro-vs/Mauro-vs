@@ -77,8 +77,8 @@ def card(th, name, plats, desc, stack, badge=None):
 # Lo marcado con * lo he aprendido este curso (2º DAW).
 STACK = [
     ("movil", "Móvil", ["React Native", "Expo", "Expo Router", "Zustand", "React Query"]),
-    ("web", "Web", ["Angular", "Signals*", "React", "Vite*", "TypeScript", "Tailwind CSS", "Canvas API*"]),
-    ("api", "API", ["NestJS", "Express*", "TypeORM", "Mongoose*", "Zod*", "Swagger", "Flask*"]),
+    ("web", "Web", ["Angular", "Signals*", "React", "Vite*", "JavaScript", "TypeScript", "Tailwind CSS", "Canvas API*"]),
+    ("api", "API", ["Node.js", "NestJS", "Express*", "TypeORM", "Mongoose*", "Zod*", "Swagger", "Flask*"]),
     ("escritorio", "Escritorio", ["C#", ".NET", "WPF", "MVVM", "Entity Framework"]),
     ("erp", "ERP", ["Odoo 18", "Python", "ORM de Odoo", "Vistas XML", "Roles y seguridad"]),
 ]
@@ -125,7 +125,7 @@ def stack(th):
     ch, bottom = chips(names, 64, sep + 70, c, size=17, h=38, pad=16, gap=10, maxw=W - 128, new=new)
     H = int(bottom + 56)
     b.insert(0, f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="28" fill="{c["bg"]}" stroke="{c["line"]}" stroke-width="2"/>')
-    alt = ("Stack. Móvil: React Native, Expo. Web: Angular, React, Vite, TypeScript. API: NestJS, Express, "
+    alt = ("Stack. Móvil: React Native, Expo. Web: Angular, React, Vite, JavaScript, TypeScript. API: Node.js, NestJS, Express, "
            "Mongoose, Zod, Flask. Escritorio: C#, WPF. ERP: Odoo, Python. Nuevo este curso: Signals, Vite, "
            "Canvas API, Express, Mongoose, Zod, Flask, MongoDB, SQLite, Docker Compose, GitHub Pages, Claude Code.")
     return svg_doc(W, H, "\n".join(b + ch), alt)
