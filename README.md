@@ -13,8 +13,9 @@ Soy Técnico Superior en **Desarrollo de Aplicaciones Multiplataforma** y ahora 
 
 Hice las prácticas en **Designo Studio**, una agencia digital de Valencia, construyendo herramientas internas de generación de contenido con React y Sanity, y webs de clientes en WordPress y Shopify.
 
-**Ahora mismo** estoy con Routly, una plataforma de rutas en moto (API en Express, panel en Angular).
-**Aprendiendo** Flutter, MongoDB y la nube: AWS, Azure y Google Cloud.
+**Ahora mismo** estoy con Routly, una plataforma de rutas en moto: API REST en Express con MongoDB y Zod, y panel de administración en Angular 20.
+**Este curso** he sumado Express, MongoDB, Angular Signals, Vite, Flask, Docker Compose y GitHub Pages, y desarrollo con agentes de IA como Claude Code.
+**Siguiente**: Flutter y la nube (AWS, Azure y Google Cloud).
 
 <br>
 
@@ -37,5 +38,16 @@ Hice las prácticas en **Designo Studio**, una agencia digital de Valencia, cons
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img alt="Móvil: React Native, Expo, Expo Router, Zustand, React Query. Web: React, Angular, TypeScript, Tailwind CSS, NestJS, Express, TypeORM. Escritorio: C#, .NET, WPF, MVVM, Entity Framework. ERP: Odoo 18, Python. Datos e infraestructura: PostgreSQL, MariaDB, MySQL, SQL Server, Supabase, Docker, GitHub Actions, PM2, Linux, Git." src="assets/stack-light.svg" width="100%">
+  <img alt="Móvil: React Native, Expo, Expo Router, Zustand, React Query. Web: Angular y Signals, React, Vite, TypeScript, Tailwind CSS, Canvas API. API: NestJS, Express, TypeORM, Mongoose, Zod, Swagger, Flask. Escritorio: C#, .NET, WPF, MVVM, Entity Framework. ERP: Odoo 18, Python. Datos, despliegue y herramientas: PostgreSQL, MongoDB, MariaDB, MySQL, SQL Server, SQLite, Supabase, Docker, Docker Compose, GitHub Actions, GitHub Pages, PM2, Linux, Git, Claude Code." src="assets/stack-light.svg" width="100%">
 </picture>
+
+<br><br>
+
+### En números
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img alt="Estadísticas de GitHub: contribuciones del último año, días con actividad, racha más larga, repositorios públicos y reparto de lenguajes" src="assets/stats-light.svg" width="100%">
+</picture>
+
+<sub>Se genera cada día con una GitHub Action a partir de la API de GitHub.</sub>
