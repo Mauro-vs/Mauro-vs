@@ -9,13 +9,15 @@
   <a href="mailto:maurovs19@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/email-dark.svg"><img alt="maurovs19@gmail.com" src="assets/email-light.svg" height="46"></picture></a>
 </p>
 
-Soy Técnico Superior en **Desarrollo de Aplicaciones Multiplataforma** y ahora curso DAW. Me gusta llevar un proyecto de punta a punta: la app en React Native, la API en NestJS que hay detrás, el despliegue en un VPS con Docker y GitHub Actions y, si la empresa trabaja con Odoo, el módulo que lo une todo.
+Soy Técnico Superior en **Desarrollo de Aplicaciones Multiplataforma** y estoy en 2º de DAW. Me gusta llevar un proyecto de punta a punta: la app, la API, la base de datos, el despliegue y la documentación. He hecho APIs REST con Express, NestJS, FastAPI, Flask y Spring Boot, apps móviles con React Native y Expo, aplicaciones de escritorio con C# y WPF, y módulos de Odoo.
 
-Hice las prácticas en **Designo Studio**, una agencia digital de Valencia, construyendo herramientas internas de generación de contenido con React y Sanity, y webs de clientes en WordPress y Shopify.
+Programo sobre todo en **TypeScript, JavaScript, C# y Python**, y también he trabajado con Java y SQL.
 
-**Ahora mismo** estoy con Routly, una plataforma de rutas en moto: API REST en Express con MongoDB y Zod, y panel de administración en Angular 20.
-**Este curso** he sumado Express, MongoDB, Angular Signals, Vite, Flask, Docker Compose y GitHub Pages, y desarrollo con agentes de IA como Claude Code.
-**Siguiente**: Flutter y la nube (AWS, Azure y Google Cloud).
+Hice las prácticas en **Designo Studio**, una agencia digital de Valencia, construyendo herramientas internas de generación de contenido con React y Sanity. Además hago webs para clientes propios en WordPress y Shopify.
+
+- **Ahora mismo** estoy con Routly, una plataforma de rutas en moto: API REST en Express 5 con MongoDB y Zod, y panel de administración en Angular 20 sin zone.js, con Signals.
+- **Este curso** he sumado FastAPI, Spring Boot, Express, MongoDB, Angular Signals, Vite y Docker Compose, y desarrollo con agentes de IA como Claude Code.
+- **Siguiente**: Flutter y la nube (AWS y Google Cloud).
 
 <br>
 
@@ -34,11 +36,20 @@ Hice las prácticas en **Designo Studio**, una agencia digital de Valencia, cons
 
 <br><br>
 
-### Con qué trabajo
+### Cómo trabajo
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/practices-dark.svg">
+  <img alt="APIs REST en cinco frameworks: Express, NestJS, FastAPI, Spring Boot y Flask. Arquitectura por capas, autenticación JWT con refresh token y roles, validación con Zod y Pydantic, pagos con Stripe, seis motores de bases de datos con migraciones, tests con MSTest, Jest y Jasmine, despliegue con Docker Compose, GitHub Actions y Azure, y desarrollo con IA." src="assets/practices-light.svg" width="100%">
+</picture>
+
+<br><br>
+
+### Tecnologías
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img alt="Móvil: React Native, Expo, Expo Router, Zustand, React Query. Web: Angular y Signals, React, Vite, JavaScript, TypeScript, Tailwind CSS, Canvas API. API: Node.js, NestJS, Express, TypeORM, Mongoose, Zod, Swagger, Flask. Escritorio: C#, .NET, WPF, MVVM, Entity Framework. ERP: Odoo 18, Python. Datos, despliegue y herramientas: PostgreSQL, MongoDB, MariaDB, MySQL, SQL Server, SQLite, Supabase, Docker, Docker Compose, GitHub Actions, GitHub Pages, PM2, Linux, Git, Claude Code." src="assets/stack-light.svg" width="100%">
+  <img alt="Móvil: React Native, Expo, Zustand, React Query, Supabase. Web: Angular con Signals, React, Vite, React Hook Form, JavaScript, TypeScript, Tailwind CSS. API: Node.js, Express, NestJS, FastAPI, Spring Boot, Flask, Zod, Swagger. Escritorio: C#, .NET, WPF, WinForms, MVVM, Entity Framework, Crystal Reports, MSTest. ERP: Odoo 18 y Python. Datos y despliegue: PostgreSQL, MongoDB, MySQL, SQL Server, SQLite, TypeORM, Mongoose, SQLAlchemy, JPA, Flyway, Alembic, Docker Compose, GitHub Actions, Azure, VPS con PM2, GitHub Pages, Git, Claude Code." src="assets/stack-light.svg" width="100%">
 </picture>
 
 <br><br>

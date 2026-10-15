@@ -76,14 +76,19 @@ def card(th, name, plats, desc, stack, badge=None):
 # ---------------------------------------------------------------- stack
 # Lo marcado con * lo he aprendido este curso (2º DAW).
 STACK = [
-    ("movil", "Móvil", ["React Native", "Expo", "Expo Router", "Zustand", "React Query"]),
-    ("web", "Web", ["Angular", "Signals*", "React", "Vite*", "JavaScript", "TypeScript", "Tailwind CSS", "Canvas API*"]),
-    ("api", "API", ["Node.js", "NestJS", "Express*", "TypeORM", "Mongoose*", "Zod*", "Swagger", "Flask*"]),
-    ("escritorio", "Escritorio", ["C#", ".NET", "WPF", "MVVM", "Entity Framework"]),
-    ("erp", "ERP", ["Odoo 18", "Python", "ORM de Odoo", "Vistas XML", "Roles y seguridad"]),
+    ("movil", "Móvil", ["React Native", "Expo", "Expo Router", "Zustand", "React Query", "RN Paper",
+                        "Notificaciones push", "Supabase"]),
+    ("web", "Web", ["Angular", "Signals*", "React", "Vite*", "React Hook Form*", "JavaScript", "TypeScript",
+                    "Tailwind CSS"]),
+    ("api", "API", ["Node.js", "Express*", "NestJS", "FastAPI*", "Spring Boot*", "Flask*", "Zod*", "Swagger"]),
+    ("escritorio", "Escritorio", ["C#", ".NET", "WPF", "WinForms", "MVVM", "Entity Framework", "Crystal Reports",
+                                  "MSTest"]),
+    ("erp", "ERP", ["Odoo 18", "Python", "ORM de Odoo", "Vistas XML", "Herencia de modelos", "Facturación",
+                    "Roles y seguridad"]),
 ]
-INFRA = ["PostgreSQL", "MongoDB*", "MariaDB", "MySQL", "SQL Server", "SQLite*", "Supabase", "Docker",
-         "Docker Compose*", "GitHub Actions", "GitHub Pages*", "PM2", "Linux / VPS", "Git", "Claude Code*"]
+INFRA = ["PostgreSQL", "MongoDB*", "MySQL / MariaDB", "SQL Server", "SQLite*", "Supabase", "TypeORM", "Mongoose*",
+         "SQLAlchemy*", "Spring Data JPA*", "Flyway*", "Alembic*", "Docker", "Docker Compose*", "GitHub Actions",
+         "Azure", "Linux / VPS", "PM2", "GitHub Pages*", "Git", "Claude Code*"]
 
 
 def stack(th):
@@ -119,16 +124,88 @@ def stack(th):
                 b.append(T(x, y, it, 19, 400, c["text"]))
     sep = top + 62 + (rows - 1) * 36 + 38
     b.append(f'<line x1="64" x2="{W-64}" y1="{sep}" y2="{sep}" stroke="{c["line"]}" stroke-width="1.5"/>')
-    b.append(T(64, sep + 48, "Datos, despliegue y herramientas", 18, 500, c["muted"]))
+    b.append(T(64, sep + 48, "Bases de datos, ORM, despliegue y herramientas", 18, 500, c["muted"]))
     names = [i.rstrip("*") for i in INFRA]
     new = {i.rstrip("*") for i in INFRA if i.endswith("*")}
     ch, bottom = chips(names, 64, sep + 70, c, size=17, h=38, pad=16, gap=10, maxw=W - 128, new=new)
     H = int(bottom + 56)
     b.insert(0, f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="28" fill="{c["bg"]}" stroke="{c["line"]}" stroke-width="2"/>')
-    alt = ("Stack. Móvil: React Native, Expo. Web: Angular, React, Vite, JavaScript, TypeScript. API: Node.js, NestJS, Express, "
-           "Mongoose, Zod, Flask. Escritorio: C#, WPF. ERP: Odoo, Python. Nuevo este curso: Signals, Vite, "
-           "Canvas API, Express, Mongoose, Zod, Flask, MongoDB, SQLite, Docker Compose, GitHub Pages, Claude Code.")
+    alt = ("Stack. Móvil: React Native, Expo, Zustand, React Query, Supabase. Web: Angular con Signals, React, Vite, "
+           "React Hook Form, JavaScript, TypeScript, Tailwind CSS. API: Node.js, Express, NestJS, FastAPI, Spring Boot, "
+           "Flask, Zod, Swagger. Escritorio: C#, .NET, WPF, WinForms, MVVM, Entity Framework, Crystal Reports, MSTest. "
+           "ERP: Odoo 18 y Python. Datos y despliegue: PostgreSQL, MongoDB, MySQL, SQL Server, SQLite, TypeORM, Mongoose, "
+           "SQLAlchemy, JPA, Flyway, Alembic, Docker Compose, GitHub Actions, Azure, VPS con PM2, GitHub Pages, Git, Claude Code.")
     return svg_doc(W, H, "\n".join(b + ch), alt)
+
+
+# ---------------------------------------------------------------- cómo trabajo
+FRAMEWORKS = [("Express", "Node.js", "Routly, Airbnb"), ("NestJS", "TypeScript", "Respi"),
+              ("FastAPI", "Python", "Polideportivo"), ("Spring Boot", "Java", "Ticketmaster"),
+              ("Flask", "Python", "Calculadora")]
+PRACTICES = [
+    ("Arquitectura por capas",
+     "Rutas, middlewares, controladores, servicios y repositorios en la API. MVVM y MVC en escritorio, "
+     "y el frontend organizado por features."),
+    ("Autenticación y roles",
+     "JWT con access y refresh token, accesos separados para admin y cliente, contraseñas con bcrypt, "
+     "cookies seguras, Helmet y CORS."),
+    ("Validación y errores",
+     "La entrada se valida antes del controlador con Zod, Pydantic, class-validator o Bean Validation, "
+     "y toda la API responde con un mismo formato de error."),
+    ("Pagos con Stripe",
+     "Integrado en Node, Python y Java: carrito, pedidos, PaymentIntents y pedidos que caducan si no se pagan."),
+    ("Datos y migraciones",
+     "Seis motores, de PostgreSQL a MongoDB, casi siempre a través de un ORM. Migraciones versionadas "
+     "con Flyway, Alembic y TypeORM."),
+    ("Tests y documentación",
+     "MSTest en .NET, Jest con Supertest en NestJS y Karma con Jasmine en Angular. Swagger en las APIs "
+     "y Doxygen en escritorio."),
+    ("Despliegue",
+     "Docker Compose para app y base de datos, GitHub Actions hasta Azure App Service, y un VPS con PM2 "
+     "para Respi."),
+    ("Desarrollo con IA",
+     "Claude Code y Copilot en el día a día, modelos locales con Ollama y aplicaciones completas "
+     "construidas por fases guiando a la IA."),
+]
+
+
+def practices(th):
+    W = 1200
+    c = THEMES[th]
+    begin()
+    b = []
+    b.append(T(64, 76, "APIs REST en cinco frameworks", 18, 500, c["muted"]))
+    fw = (W - 128) / len(FRAMEWORKS)
+    for i, (name, lang, proj) in enumerate(FRAMEWORKS):
+        x = 64 + i * fw
+        if i:
+            b.append(f'<line x1="{x-22}" x2="{x-22}" y1="112" y2="196" stroke="{c["line"]}" stroke-width="1.5"/>')
+        b.append(T(x, 140, name, 30, 700, c["text"], ls=-0.6))
+        b.append(T(x, 170, lang, 18, 500, c["text"]))
+        b.append(T(x, 194, proj, 16, 400, c["muted"]))
+    y = 240
+    b.append(f'<line x1="64" x2="{W-64}" y1="{y}" y2="{y}" stroke="{c["line"]}" stroke-width="1.5"/>')
+    b.append(T(64, y + 52, "Lo que aplico en cada proyecto", 18, 500, c["muted"]))
+    gap = 56
+    colw = (W - 128 - gap) / 2
+    y += 92
+    for r in range(0, len(PRACTICES), 2):
+        row_h = 0
+        for k in range(2):
+            title, body = PRACTICES[r + k]
+            x = 64 + k * (colw + gap)
+            b.append(f'<line x1="{x}" x2="{x+colw}" y1="{y}" y2="{y}" stroke="{c["line"]}" stroke-width="1.5"/>')
+            b.append(T(x, y + 40, title, 22, 700, c["text"], ls=-0.3))
+            lines = wrap(body, 18, 400, colw)
+            for i, ln in enumerate(lines):
+                b.append(T(x, y + 74 + i * 27, ln, 18, 400, c["muted"]))
+            row_h = max(row_h, 74 + (len(lines) - 1) * 27 + 34)
+        y += row_h
+    H = int(y + 26)
+    b.insert(0, f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="28" fill="{c["bg"]}" stroke="{c["line"]}" stroke-width="2"/>')
+    alt = ("APIs REST en cinco frameworks: Express, NestJS, FastAPI, Spring Boot y Flask. "
+           + " ".join(f"{t}: {d}" for t, d in PRACTICES))
+    return svg_doc(W, H, "\n".join(b), alt)
 
 
 # ---------------------------------------------------------------- botones de contacto
@@ -178,6 +255,7 @@ if __name__ == "__main__":
     for th in THEMES:
         write(f"hero-{th}.svg", hero(th))
         write(f"stack-{th}.svg", stack(th))
+        write(f"practices-{th}.svg", practices(th))
         write(f"linkedin-{th}.svg", pill(th, "LinkedIn", "user"))
         write(f"email-{th}.svg", pill(th, "maurovs19@gmail.com", "mail"))
         for slug, *args in PROJECTS:
