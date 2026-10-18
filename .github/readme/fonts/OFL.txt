@@ -1,4 +1,14 @@
-Copyright 2021 The Familjen Grotesk Project Authors (https://github.com/Familjen-Sthlm/Familjen-Grotesk) FamiljenGrotesk-Italic[wght].ttf: Copyright 2021 The Familjen Grotesk Project Authors (https://github.com/Familjen-Sthlm/Familjen-Grotesk)
+Fuentes autoalojadas (subconjunto latin, formato WOFF2), distribuidas bajo SIL Open Font License 1.1.
+
+- Geist (variable: wght 100–900) — https://github.com/vercel/geist-font
+- Geist Mono (variable: wght 100–900) — https://github.com/vercel/geist-font
+
+Archivos obtenidos de los paquetes de Fontsource (https://fontsource.org).
+
+================================================================
+Geist
+================================================================
+Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git) Geist-Italic[wght].ttf: Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
@@ -91,3 +101,11 @@ INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
+
+================================================================
+Geist Mono
+================================================================
+Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git) GeistMono-Italic[wght].ttf: Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+(Mismo texto de la SIL Open Font License 1.1 que arriba.)

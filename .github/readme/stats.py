@@ -7,15 +7,16 @@ En local:  GITHUB_TOKEN=xxx python .github/readme/stats.py
 """
 import argparse, datetime as dt, json, os, urllib.request
 
-from design import THEMES, T, begin, measure, svg_doc, write
+from design import THEMES, T, begin, eyebrow, measure, svg_doc, write
 
 LOGIN = "Mauro-vs"
 
 # Solo lenguajes de programación; el marcado y la configuración no cuentan.
 IGNORED = {"HTML", "CSS", "SCSS", "Less", "Dockerfile", "Shell", "Batchfile", "PowerShell",
            "Makefile", "Procfile", "Jupyter Notebook", "Mustache", "Handlebars"}
-# Orden y color fijos (cada lenguaje lleva el color de su plataforma). Orden validado para CVD.
-LANGS = [("C#", "escritorio"), ("TypeScript", "movil"), ("Python", "erp"), ("JavaScript", "web")]
+# Orden y color fijos. Los cuatro tonos se distinguen por luminancia, no solo por
+# matiz, y la leyenda repite nombre y porcentaje (el color nunca va solo).
+LANGS = [("C#", "accent"), ("TypeScript", "signal"), ("Python", "lang3"), ("JavaScript", "lang4")]
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 MESES_LARGO = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
                "septiembre", "octubre", "noviembre", "diciembre"]
@@ -112,14 +113,14 @@ def render(th, data):
         x = 64 + i * tw
         if i:
             b.append(f'<line x1="{x-24}" x2="{x-24}" y1="64" y2="176" stroke="{c["line"]}" stroke-width="1.5"/>')
-        b.append(T(x, 124, num, 64, 700, c["text"], ls=-2))
+        b.append(T(x, 124, num, 64, 600, c["text"], ls=-2.6))
         b.append(T(x, 154, l1, 19, 500, c["text"]))
         b.append(T(x, 178, l2, 17, 400, c["muted"]))
 
     # --- mapa de contribuciones
     y0 = 236
     b.append(f'<line x1="64" x2="{W-64}" y1="{y0}" y2="{y0}" stroke="{c["line"]}" stroke-width="1.5"/>')
-    b.append(T(64, y0 + 52, "Contribuciones del último año", 18, 500, c["muted"]))
+    b += eyebrow(64, y0 + 52, "Contribuciones del último año", c)
     first = days[0][0] - dt.timedelta(days=(days[0][0].weekday() + 1) % 7)   # domingo
     nz = sorted(n for _, n in days if n > 0)
     cuts = [nz[int(len(nz) * q)] for q in (0.25, 0.5, 0.75)] if nz else [1, 2, 3]
@@ -156,7 +157,7 @@ def render(th, data):
     # --- lenguajes
     y1 = gb + 64
     b.append(f'<line x1="64" x2="{W-64}" y1="{y1}" y2="{y1}" stroke="{c["line"]}" stroke-width="1.5"/>')
-    b.append(T(64, y1 + 52, "Lenguajes en mis repositorios", 18, 500, c["muted"]))
+    b += eyebrow(64, y1 + 52, "Lenguajes en mis repositorios", c)
     bx, by, bw, bh, gap = 64, y1 + 76, W - 128, 14, 2
     total = sum(p for *_, p in segs) or 1
     usable = bw - gap * (len(segs) - 1)
