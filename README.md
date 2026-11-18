@@ -24,15 +24,14 @@ Me interesa el recorrido completo: el modelo de datos, la API y la pantalla que 
 ### Proyectos
 
 <p>
+  <a href="https://mauro-vs.dev/proyectos/estacio-nat/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/estacio-nat-dark.svg"><img alt="Estacio-Nat, proyecto propio: reparto nocturno de los puntos de recarga del instituto con NestJS, PostgreSQL y una PWA en JavaScript. Ver el caso de estudio." src="assets/estacio-nat-light.svg" width="49%"></picture></a>
+  <a href="https://mauro-vs.dev/proyectos/routly/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/routly-dark.svg"><img alt="Routly, proyecto propio: rutas y salidas guiadas en moto con Express 5, MongoDB, Angular 20 y un servidor de IA. Ver el caso de estudio." src="assets/routly-light.svg" width="49%"></picture></a>
   <a href="https://mauro-vs.dev/proyectos/designo-crm/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/designo-crm-dark.svg"><img alt="Designo Studio CRM, en equipo de 4: CRM interno de una agencia de marketing con React Native, Expo, NestJS y PostgreSQL. Ver el caso de estudio." src="assets/designo-crm-light.svg" width="49%"></picture></a>
   <a href="https://mauro-vs.dev/proyectos/respi/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/respi-dark.svg"><img alt="Respi, en equipo de 3: reserva de pistas con pago integrado; mi parte, los pagos con Stripe. Ver el caso de estudio." src="assets/respi-light.svg" width="49%"></picture></a>
   <a href="https://mauro-vs.dev/proyectos/gestilibro/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/gestilibro-dark.svg"><img alt="GestiLibro, proyecto propio: módulo de Odoo 18 para una cadena de librerías. Ver el caso de estudio." src="assets/gestilibro-light.svg" width="49%"></picture></a>
-  <a href="https://mauro-vs.dev/proyectos/hakuna-mamoto/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hakuna-mamoto-dark.svg"><img alt="Hakuna MaMoto, proyecto propio: app móvil de alquiler de motos con React Native y Supabase. Ver el caso de estudio." src="assets/hakuna-mamoto-light.svg" width="49%"></picture></a>
-  <a href="https://mauro-vs.dev/proyectos/club-padel/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/club-padel-dark.svg"><img alt="Club Pádel, proyecto propio: aplicación de escritorio con C#, WPF, MVVM y SQL Server. Ver el caso de estudio." src="assets/club-padel-light.svg" width="49%"></picture></a>
-  <a href="https://github.com/Mauro-vs/Proyecto_API"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/motogp-dark.svg"><img alt="MotoGP Dashboard, proyecto propio: estadísticas en tiempo real con C# y WPF. Ver el repositorio." src="assets/motogp-light.svg" width="49%"></picture></a>
 </p>
 
-**Código.** Propios: [GestiLibro](https://github.com/Mauro-vs/GestiLibro) · [Hakuna MaMoto](https://github.com/Mauro-vs/Hakuna-MaMoto) · [Club Pádel](https://github.com/Mauro-vs/ClubPadel) · [MotoGP Dashboard](https://github.com/Mauro-vs/Proyecto_API)<br>
+**Código.** Propios: [Routly](https://github.com/Mauro-vs/Routly) · [GestiLibro](https://github.com/Mauro-vs/GestiLibro) · Estacio-Nat (repositorio privado por ahora)<br>
 En equipo: Designo Studio CRM ([frontend](https://github.com/Yonderus/Designo-Studio-Front), [API](https://github.com/Yonderus/Designo-Studio-Back)) · Respi ([app](https://github.com/Christopher-Blc/Respi_Frontend), [API](https://github.com/Christopher-Blc/ProyectoApp_Acceso_A_Datos)), liderado por [@Christopher-Blc](https://github.com/Christopher-Blc)
 
 <br>
@@ -41,7 +40,7 @@ En equipo: Designo Studio CRM ([frontend](https://github.com/Yonderus/Designo-St
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img alt="Stack por capas. Interfaz: TypeScript, React Native con Expo, React, Angular, C# y .NET con SQL Server. API: Node.js con NestJS, Express, Java con Spring Boot, API REST con JWT, Stripe. Datos: PostgreSQL, MySQL y MariaDB, MongoDB, Odoo con Python. Despliegue: Docker, GitHub Actions y Azure; testing con Jest y MSTest. También: FastAPI, Flask, WPF, WinForms, MVVM, Entity Framework, Supabase, Zustand, TanStack Query, Vite, Tailwind CSS, Zod, Swagger, TypeORM, Mongoose, SQLAlchemy, Flyway, Alembic, SQLite, Linux y VPS, Git y Claude Code." src="assets/stack-light.svg" width="100%">
+  <img alt="Stack por capas. Interfaz: TypeScript, React Native con Expo, Angular, JavaScript vanilla con PWA, C# y .NET con SQL Server. API: Node.js con NestJS, Express, Java con Spring Boot, API REST con JWT, Stripe. Datos: PostgreSQL, MySQL y MariaDB, MongoDB, Odoo con Python. Despliegue: Docker, GitHub Actions y Azure; testing con Vitest, Jest y MSTest. También: React con Vite, Next.js, Astro, three.js, Tailwind CSS, RxJS, Expo Router, Zustand, EAS, TypeORM, Mongoose, Zod, Swagger, SSE, Web Push, SQL Server, WPF, Entity Framework, Playwright, Azure App Service, Git, Claude Code y Cursor." src="assets/stack-light.svg" width="100%">
 </picture>
 
 <br><br>

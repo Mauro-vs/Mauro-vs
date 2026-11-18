@@ -137,6 +137,12 @@ def card(th, name, kicker, owner, desc, stack, link_label):
 
 
 PROJECTS = [
+    ("estacio-nat", "Estacio-Nat", "Puntos de recarga del instituto · PWA", "Propio",
+     "Reparte cada noche los 3 puntos de recarga del instituto, con prioridad para quien menos ha cargado.",
+     ["NestJS", "PostgreSQL", "JavaScript", "PWA"], "Ver el caso de estudio"),
+    ("routly", "Routly", "Rutas y salidas guiadas en moto · web", "Propio",
+     "Monorepo con API en Express 5, panel en Angular 20 sin zone.js, web pública y servidor de IA.",
+     ["Angular 20", "Express 5", "MongoDB", "Zod"], "Ver el caso de estudio"),
     ("designo-crm", "Designo Studio CRM", "CRM interno · web · prácticas", "Equipo de 4",
      "CRM de una agencia de marketing: comercial, proyectos, tareas y presupuestos. Principal contribuidor del frontend.",
      ["React Native", "Expo", "NestJS", "PostgreSQL"], "Ver el caso de estudio"),
@@ -146,30 +152,21 @@ PROJECTS = [
     ("gestilibro", "GestiLibro", "Módulo de Odoo 18 · ERP", "Propio",
      "Cadena de librerías: catálogo, stock por tienda, ventas con validación de existencias y facturación.",
      ["Odoo 18", "Python", "PostgreSQL", "Docker"], "Ver el caso de estudio"),
-    ("hakuna-mamoto", "Hakuna MaMoto", "Alquiler de motos · app móvil", "Propio",
-     "Catálogo, favoritos, reservas por fechas y tres roles (administrador, mecánico y cliente), sobre Supabase.",
-     ["React Native", "Expo", "Supabase", "TanStack Query"], "Ver el caso de estudio"),
-    ("club-padel", "Club Pádel", "Gestión de club · escritorio", "Propio",
-     "Socios, instalaciones, reservas sin solapamientos, cuotas automáticas e informes.",
-     ["C#", "WPF", "MVVM", "SQL Server"], "Ver el caso de estudio"),
-    ("motogp", "MotoGP Dashboard", "Estadísticas · escritorio", "Propio",
-     "Estadísticas de MotoGP en tiempo real desde la API de Sportradar, con async/await y caché.",
-     ["C#", "WPF", "API REST"], "Ver el repositorio"),
 ]
 
 
 # ---------------------------------------------------------------- stack
 # Las cuatro capas de la constelación del portfolio, con sus logos.
 LAYERS = [
-    ("Interfaz", ["TypeScript", "React Native + Expo", "React", "Angular", "C# / .NET + SQL Server"]),
+    ("Interfaz", ["TypeScript", "React Native + Expo", "Angular", "JavaScript vanilla + PWA", "C# / .NET + SQL Server"]),
     ("API", ["Node.js + NestJS", "Express", "Java + Spring Boot", "API REST + JWT", "Stripe"]),
     ("Datos", ["PostgreSQL", "MySQL / MariaDB", "MongoDB", "Odoo + Python"]),
-    ("Despliegue", ["Docker, GitHub Actions y Azure", "Testing (Jest, MSTest)"]),
+    ("Despliegue", ["Docker, GitHub Actions y Azure", "Testing (Vitest, Jest, MSTest)"]),
 ]
 # Lo que también he usado en proyectos o en clase, sin entrar en las capas.
-ALSO = ["FastAPI", "Flask", "WPF", "WinForms", "MVVM", "Entity Framework", "Supabase", "Zustand",
-        "TanStack Query", "Vite", "Tailwind CSS", "Zod", "Swagger", "TypeORM", "Mongoose", "SQLAlchemy",
-        "Flyway", "Alembic", "SQLite", "Linux / VPS", "Git", "Claude Code"]
+ALSO = ["React + Vite", "Next.js", "Astro", "three.js", "Tailwind CSS", "RxJS", "Expo Router", "Zustand",
+        "EAS", "TypeORM", "Mongoose", "Zod", "Swagger", "SSE", "Web Push", "SQL Server", "WPF",
+        "Entity Framework", "Playwright", "Azure App Service", "Git", "Claude Code", "Cursor"]
 
 
 def logo(x, y, name, c, size=22):
